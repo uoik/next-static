@@ -12,6 +12,7 @@
     "build:page": "node builder/page-builder.js"
   },
   "dependencies": {
+    "@sunzi/customeow": "1.12.1-alpha.9",
     "@sunzi/customeow-shein": "1.12.1-alpha.7",
     "axios": "^1.6.7",
     "next": "14.1.0",

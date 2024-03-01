@@ -1,6 +1,6 @@
 
-      export default function Page() {
-        const data = {
+      import Custom from '@/components/Custom';
+      const data = {
   "version": 1,
   "customizerId": "82851759843704832",
   "customData": {
@@ -773,212 +773,36 @@
   ],
   "locals": {
     "__i18n_82851760103751680_title": {
-      "en_US": "Step 1",
-      "ja_JP": "ステップ1",
-      "nl_NL": "Stap 1",
-      "zh_CN": "步骤1",
-      "es_ES": "Paso 1",
-      "pl_PL": "Krok 1",
-      "tr_TR": "Aşama 1",
-      "cs_CZ": "Krok 1",
-      "fr_FR": "Étape 1",
-      "ko_KR": "1 단계",
-      "th_TH": "ขั้นตอนที่ 1",
-      "id_ID": "Langkah 1",
-      "sv_SV": "Steg 1",
-      "ar_AR": "الخطوة 1",
-      "he_IL": "שלב 1",
-      "pt_PT": "Passo 1",
-      "el_GR": "Βήμα 1",
-      "pt_BR": "Passo 1",
-      "it_IT": "Passo 1",
-      "ru_RU": "Шаг 1",
-      "de_DE": "Schritt 1",
-      "zh_TW": "步驟1",
-      "vi_VI": "Bước 1"
+      "en_US": "Step 1"
     },
     "__i18n_82852802824503296_label": {
-      "en_US": "Pixel art preview",
-      "ja_JP": "ピクセルアートのプレビュー",
-      "nl_NL": "Voorbeeld van pixelkunst",
-      "zh_CN": "像素艺术预览",
-      "es_ES": "Vista previa del arte de píxeles",
-      "pl_PL": "Podgląd grafiki pikseli",
-      "tr_TR": "Piksel sanat önizlemesi",
-      "cs_CZ": "Náhled pixelového umění",
-      "fr_FR": "Aperçu du pixel art",
-      "ko_KR": "픽셀 아트 미리보기",
-      "th_TH": "การแสดงตัวอย่างศิลปะพิกเซล",
-      "id_ID": "Pratinjau seni piksel",
-      "sv_SV": "Förhandsvisning av Pixelkonst",
-      "ar_AR": "معاينة فن البكسل",
-      "he_IL": "תצוגה מקדימה של אמנות פיקסל",
-      "pt_PT": "Visualização de pixel art",
-      "el_GR": "Προεπισκόπηση εικονοστοιχείων",
-      "pt_BR": "Visualização de pixel art",
-      "it_IT": "Anteprima della pixel art",
-      "ru_RU": "Предварительный просмотр пиксельной графики",
-      "de_DE": "Pixel-Art-Vorschau",
-      "zh_TW": "像素藝術預覽",
-      "vi_VI": "Xem trước nghệ thuật pixel"
+      "en_US": "Pixel art preview"
     },
     "__i18n_82852802820308992_label": {
-      "en_US": "photo upload",
-      "ja_JP": "写真のアップロード",
-      "nl_NL": "foto uploaden",
-      "zh_CN": "照片上传",
-      "es_ES": "subir foto",
-      "pl_PL": "przesyłanie zdjęć",
-      "tr_TR": "fotoğraf yükleme",
-      "cs_CZ": "nahrání fotografie",
-      "fr_FR": "téléchargement de photos",
-      "ko_KR": "사진 업로드",
-      "th_TH": "อัพโหลดรูปภาพ",
-      "id_ID": "unggahan foto",
-      "sv_SV": "foto uppladdning",
-      "ar_AR": "رفع صورة",
-      "he_IL": "העלאת תמונה",
-      "pt_PT": "upload de fotos",
-      "el_GR": "μεταφόρτωση φωτογραφίας",
-      "pt_BR": "upload de fotos",
-      "it_IT": "caricamento di foto",
-      "ru_RU": "загрузка фото",
-      "de_DE": "Foto-Upload",
-      "zh_TW": "照片上傳",
-      "vi_VI": "tải ảnh lên"
+      "en_US": "photo upload"
     },
     "__i18n_82852802820308995_label": {
-      "en_US": "photo upload(1)",
-      "ja_JP": "写真のアップロード(1)",
-      "nl_NL": "foto-upload(1)",
-      "zh_CN": "照片上传(1)",
-      "es_ES": "subir foto(1)",
-      "pl_PL": "przesyłanie zdjęć(1)",
-      "tr_TR": "fotoğraf yükleme(1)",
-      "cs_CZ": "nahrání fotky (1)",
-      "fr_FR": "téléchargement de photos(1)",
-      "ko_KR": "사진 업로드(1)",
-      "th_TH": "อัพโหลดรูปภาพ(1)",
-      "id_ID": "unggah foto(1)",
-      "sv_SV": "fotouppladdning (1)",
-      "ar_AR": "تحميل الصور(1)",
-      "he_IL": "העלאת תמונה (1)",
-      "pt_PT": "upload de fotos(1)",
-      "el_GR": "μεταφόρτωση φωτογραφίας (1)",
-      "pt_BR": "upload de fotos(1)",
-      "it_IT": "caricamento foto(1)",
-      "ru_RU": "загрузить фото(1)",
-      "de_DE": "Foto-Upload(1)",
-      "zh_TW": "照片上傳(1)",
-      "vi_VI": "tải ảnh lên (1)"
+      "en_US": "photo upload(1)"
     },
     "__i18n_82852802820308994_label": {
-      "en_US": "photo upload(2)",
-      "ja_JP": "写真のアップロード(2)",
-      "nl_NL": "foto-upload(2)",
-      "zh_CN": "照片上传(2)",
-      "es_ES": "subir foto(2)",
-      "pl_PL": "przesyłanie zdjęć(2)",
-      "tr_TR": "fotoğraf yükleme(2)",
-      "cs_CZ": "nahrání fotky (2)",
-      "fr_FR": "téléchargement de photos(2)",
-      "ko_KR": "사진 업로드(2)",
-      "th_TH": "อัพโหลดรูปภาพ(2)",
-      "id_ID": "unggah foto(2)",
-      "sv_SV": "foto uppladdning (2)",
-      "ar_AR": "تحميل الصور(2)",
-      "he_IL": "העלאת תמונה (2)",
-      "pt_PT": "upload de fotos(2)",
-      "el_GR": "μεταφόρτωση φωτογραφίας (2)",
-      "pt_BR": "upload de fotos(2)",
-      "it_IT": "caricamento foto(2)",
-      "ru_RU": "загрузка фото(2)",
-      "de_DE": "Foto-Upload(2)",
-      "zh_TW": "照片上傳(2)",
-      "vi_VI": "tải ảnh lên (2)"
+      "en_US": "photo upload(2)"
     },
     "__i18n_82851760112140288_title": {
-      "en_US": "Step 2",
-      "ja_JP": "ステップ2",
-      "nl_NL": "Stap 2",
-      "zh_CN": "第2步",
-      "es_ES": "Paso 2",
-      "pl_PL": "Krok 2",
-      "tr_TR": "Adım 2",
-      "cs_CZ": "Krok 2",
-      "fr_FR": "Étape 2",
-      "ko_KR": "2 단계",
-      "th_TH": "ขั้นตอนที่ 2",
-      "id_ID": "Langkah 2",
-      "sv_SV": "Steg 2",
-      "ar_AR": "الخطوة 2",
-      "he_IL": "שלב 2",
-      "pt_PT": "Passo 2",
-      "el_GR": "Βήμα 2",
-      "pt_BR": "Passo 2",
-      "it_IT": "Passo 2",
-      "ru_RU": "Шаг 2",
-      "de_DE": "Schritt 2",
-      "zh_TW": "第2步",
-      "vi_VI": "Bước 2"
+      "en_US": "Step 2"
     },
     "__i18n_82882524082077696_label": {
-      "en_US": "preview",
-      "ja_JP": "プレビュー",
-      "nl_NL": "voorbeeld",
-      "zh_CN": "预览",
-      "es_ES": "avance",
-      "pl_PL": "zapowiedź",
-      "tr_TR": "Ön izleme",
-      "cs_CZ": "náhled",
-      "fr_FR": "Aperçu",
-      "ko_KR": "시사",
-      "th_TH": "ดูตัวอย่าง",
-      "id_ID": "pratinjau",
-      "sv_SV": "förhandsvisning",
-      "ar_AR": "معاينة",
-      "he_IL": "תצוגה מקדימה",
-      "pt_PT": "visualização",
-      "el_GR": "προεπισκόπηση",
-      "pt_BR": "visualização",
-      "it_IT": "anteprima",
-      "ru_RU": "предварительный просмотр",
-      "de_DE": "Vorschau",
-      "zh_TW": "預覽",
-      "vi_VI": "xem trước"
+      "en_US": "preview"
     },
     "__i18n_82882524082077698_label": {
-      "en_US": "photo upload(3)",
-      "ja_JP": "写真のアップロード(3)",
-      "nl_NL": "foto-upload(3)",
-      "zh_CN": "照片上传(3)",
-      "es_ES": "subir foto(3)",
-      "pl_PL": "przesyłanie zdjęć(3)",
-      "tr_TR": "fotoğraf yükleme(3)",
-      "cs_CZ": "nahrání fotky (3)",
-      "fr_FR": "téléchargement de photos(3)",
-      "ko_KR": "사진 업로드(3)",
-      "th_TH": "อัพโหลดรูปภาพ(3)",
-      "id_ID": "unggah foto(3)",
-      "sv_SV": "foto uppladdning (3)",
-      "ar_AR": "تحميل الصور(3)",
-      "he_IL": "העלאת תמונה (3)",
-      "pt_PT": "upload de fotos(3)",
-      "el_GR": "μεταφόρτωση φωτογραφιών (3)",
-      "pt_BR": "upload de fotos(3)",
-      "it_IT": "caricamento foto(3)",
-      "ru_RU": "загрузить фото(3)",
-      "de_DE": "Foto-Upload(3)",
-      "zh_TW": "照片上傳(3)",
-      "vi_VI": "tải ảnh lên(3)"
+      "en_US": "photo upload(3)"
     }
   },
   "paramErps": [],
   "customizerVersion": "82900851793854464"
-};
+}
+;
 
-        return (
-          <div className="w-full h-full border bg-green-600">{data.customizerId}</div>
-        );
-      }
+      export default function Page() {
+        return <Custom data={data} />
+      };
     

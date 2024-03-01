@@ -19,13 +19,12 @@ module.exports = async () => {
     if (fileName) {
       // 页面的tsx
       const pageContent = `
-      export default function Page() {
-        const data = ${jsonContent};
+      import Custom from '@/components/Custom';
+      const data = ${jsonContent};
 
-        return (
-          <div className="w-full h-full border bg-green-600">{data.customizerId}</div>
-        );
-      }
+      export default function Page() {
+        return <Custom data={data} />
+      };
     `
 
       // 检查目录是否存在，如果不存在则创建目录

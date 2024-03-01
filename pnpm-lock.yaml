@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@sunzi/customeow':
+    specifier: 1.12.1-alpha.9
+    version: 1.12.1-alpha.9(@types/react@18.0.0)(fabric@5.3.0)(node-fetch@3.3.2)(react-dom@18.0.0)(react@18.0.0)(typescript@5.0.2)
   '@sunzi/customeow-shein':
     specifier: 1.12.1-alpha.7
     version: 1.12.1-alpha.7(@types/react@18.0.0)(fabric@5.3.0)(node-fetch@3.3.2)(react-dom@18.0.0)(react@18.0.0)(typescript@5.0.2)
@@ -859,7 +862,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.24.0
       '@sunzi/components': 1.1.29(@types/react@18.0.0)(fabric@5.3.0)(node-fetch@3.3.2)(react-dom@18.0.0)(react@18.0.0)(typescript@5.0.2)
-      '@sunzi/customeow': 1.12.1-alpha.7(@types/react@18.0.0)(fabric@5.3.0)(node-fetch@3.3.2)(react-dom@18.0.0)(react@18.0.0)(typescript@5.0.2)
+      '@sunzi/customeow': 1.12.1-alpha.9(@types/react@18.0.0)(fabric@5.3.0)(node-fetch@3.3.2)(react-dom@18.0.0)(react@18.0.0)(typescript@5.0.2)
       '@sunzi/hooks': 1.1.13(node-fetch@3.3.2)(react-dom@18.0.0)(react@18.0.0)
       '@sunzi/icon': 1.0.57(react@18.0.0)
       '@sunzi/utils': 1.1.12(node-fetch@3.3.2)(react-dom@18.0.0)(react@18.0.0)
@@ -881,8 +884,8 @@ packages:
       - typescript
     dev: false
 
-  /@sunzi/customeow@1.12.1-alpha.7(@types/react@18.0.0)(fabric@5.3.0)(node-fetch@3.3.2)(react-dom@18.0.0)(react@18.0.0)(typescript@5.0.2):
-    resolution: {integrity: sha512-ZjsCcCI/Yqv72XhpLftQpTNOSGNspoY4Qx8bgWKpejRmGJTVPiJyif1pN5J1WpeGDGZlKEM/lHZ9OznBYTO2mw==}
+  /@sunzi/customeow@1.12.1-alpha.9(@types/react@18.0.0)(fabric@5.3.0)(node-fetch@3.3.2)(react-dom@18.0.0)(react@18.0.0)(typescript@5.0.2):
+    resolution: {integrity: sha512-8Huq9XCtToxmFwCYNARJ3h2CBAumISOupUb3ENSgb2HRZ1AEg3BvT0mOmE15DgmxELhgPuXC50wXEWiLkXW3Ig==}
     peerDependencies:
       fabric: '>=5.2.1'
       react: '>=18.0.0'
